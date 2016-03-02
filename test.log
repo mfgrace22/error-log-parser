@@ -1,0 +1,304 @@
+- Broken pipe from ('127.0.0.1', 49462)
+.- Broken pipe from ('127.0.0.1', 49904)
+- Broken pipe from ('127.0.0.1', 49968)
+.- Broken pipe from ('127.0.0.1', 50300)
+.- Broken pipe from ('127.0.0.1', 50796)
+.- Broken pipe from ('127.0.0.1', 51220)
+.- Broken pipe from ('127.0.0.1', 51632)
+.- Broken pipe from ('127.0.0.1', 52044)
+.- Broken pipe from ('127.0.0.1', 52290)
+.- Broken pipe from ('127.0.0.1', 52894)
+E- Broken pipe from ('127.0.0.1', 53370)
+- Broken pipe from ('127.0.0.1', 53714)
+.- Broken pipe from ('127.0.0.1', 53988)
+.- Broken pipe from ('127.0.0.1', 54368)
+.- Broken pipe from ('127.0.0.1', 54614)
+- Broken pipe from ('127.0.0.1', 54640)
+.- Broken pipe from ('127.0.0.1', 54662)
+- Broken pipe from ('127.0.0.1', 54832)
+.- Broken pipe from ('127.0.0.1', 55094)
+.- Broken pipe from ('127.0.0.1', 55374)
+.- Broken pipe from ('127.0.0.1', 55644)
+E- Broken pipe from ('127.0.0.1', 55842)
+.EEEE- Broken pipe from ('127.0.0.1', 42426)
+- Broken pipe from ('127.0.0.1', 42450)
+.- Broken pipe from ('127.0.0.1', 42750)
+..EE- Broken pipe from ('127.0.0.1', 57936)
+.E- Broken pipe from ('127.0.0.1', 58302)
+.E- Broken pipe from ('127.0.0.1', 58664)
+.- Broken pipe from ('127.0.0.1', 58946)
+E- Broken pipe from ('127.0.0.1', 59228)
+.- Broken pipe from ('127.0.0.1', 59710)
+.- Broken pipe from ('127.0.0.1', 60628)
+- Broken pipe from ('127.0.0.1', 32834)
+- Broken pipe from ('127.0.0.1', 32992)
+.- Broken pipe from ('127.0.0.1', 33202)
+.- Broken pipe from ('127.0.0.1', 33496)
+- Broken pipe from ('127.0.0.1', 33626)
+- Broken pipe from ('127.0.0.1', 33754)
+- Broken pipe from ('127.0.0.1', 33882)
+- Broken pipe from ('127.0.0.1', 34020)
+- Broken pipe from ('127.0.0.1', 34146)
+- Broken pipe from ('127.0.0.1', 34282)
+- Broken pipe from ('127.0.0.1', 34418)
+- Broken pipe from ('127.0.0.1', 34556)
+.- Broken pipe from ('127.0.0.1', 34782)
+..- Broken pipe from ('127.0.0.1', 35172)
+..- Broken pipe from ('127.0.0.1', 36550)
+.- Broken pipe from ('127.0.0.1', 37266)
+.- Broken pipe from ('127.0.0.1', 37908)
+.- Broken pipe from ('127.0.0.1', 38498)
+- Broken pipe from ('127.0.0.1', 38504)
+- Broken pipe from ('127.0.0.1', 38588)
+.- Broken pipe from ('127.0.0.1', 52924)
+.- Broken pipe from ('127.0.0.1', 53436)
+.- Broken pipe from ('127.0.0.1', 53808)
+.- Broken pipe from ('127.0.0.1', 54362)
+.- Broken pipe from ('127.0.0.1', 54922)
+.- Broken pipe from ('127.0.0.1', 55712)
+.- Broken pipe from ('127.0.0.1', 42072)
+.- Broken pipe from ('127.0.0.1', 42834)
+.- Broken pipe from ('127.0.0.1', 43386)
+.- Broken pipe from ('127.0.0.1', 43750)
+.- Broken pipe from ('127.0.0.1', 44294)
+.- Broken pipe from ('127.0.0.1', 58788)
+.- Broken pipe from ('127.0.0.1', 59308)
+.- Broken pipe from ('127.0.0.1', 59642)
+..- Broken pipe from ('127.0.0.1', 60686)
+.- Broken pipe from ('127.0.0.1', 47048)
+.- Broken pipe from ('127.0.0.1', 47446)
+.- Broken pipe from ('127.0.0.1', 33800)
+.- Broken pipe from ('127.0.0.1', 48268)
+.- Broken pipe from ('127.0.0.1', 48404)
+- Broken pipe from ('127.0.0.1', 48416)
+- Broken pipe from ('127.0.0.1', 48602)
+.- Broken pipe from ('127.0.0.1', 49016)
+.- Broken pipe from ('127.0.0.1', 49632)
+.- Broken pipe from ('127.0.0.1', 50288)
+.
+======================================================================
+ERROR: test_payment_history_filter (clinic_portal.tests.seltest_clinic_selenium.ClinicUI)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/clinic_portal/tests/seltest_clinic_selenium.py", line 317, in test_payment_history_filter
+    assert empty_message.text == '{0}. {1} {2}.'.format(
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 65, in text
+    return self._execute(Command.GET_ELEMENT_TEXT)['value']
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+StaleElementReferenceException: Message: Element not found in the cache - perhaps the page has changed since it was looked up
+Stacktrace:
+    at fxdriver.cache.getElementAt (resource://fxdriver/modules/web-element-cache.js:9348)
+    at Utils.getElementAt (file:///tmp/tmpJSCJRz/extensions/fxdriver@googlecode.com/components/command-processor.js:8942)
+    at WebElement.getElementText (file:///tmp/tmpJSCJRz/extensions/fxdriver@googlecode.com/components/command-processor.js:12083)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmpJSCJRz/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpJSCJRz/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_invoice_modified_dates (clinic_portal.tests.seltest_clinic_selenium.SiteInvoiceAcceptance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/clinic_portal/tests/seltest_clinic_selenium.py", line 1251, in test_invoice_modified_dates
+    By.ID, 'view_invoice_tab'
+TypeError: __init__() takes exactly 2 arguments (3 given)
+
+======================================================================
+ERROR: test_case_concurrent_logins (login_app.tests.sel_test_login_app_selenium.LoginTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 456, in test_case_concurrent_logins
+    driver.find_element_by_id("id_privacy_policy").click()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: Element is not currently visible and so may not be interacted with
+Stacktrace:
+    at fxdriver.preconditions.visible (file:///tmp/tmps9vx5t/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+    at DelayedCommand.prototype.checkPreconditions_ (file:///tmp/tmps9vx5t/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmps9vx5t/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmps9vx5t/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_case_inactive_log_in (login_app.tests.sel_test_login_app_selenium.LoginTests)
+an inactive user is not allowed to log in
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 164, in test_case_inactive_log_in
+    driver.find_element_by_id("id_privacy_policy").click()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: Element is not currently visible and so may not be interacted with
+Stacktrace:
+    at fxdriver.preconditions.visible (file:///tmp/tmpnsrG6R/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+    at DelayedCommand.prototype.checkPreconditions_ (file:///tmp/tmpnsrG6R/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmpnsrG6R/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpnsrG6R/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_case_insensitive_log_in (login_app.tests.sel_test_login_app_selenium.LoginTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 112, in test_case_insensitive_log_in
+    driver.find_element_by_id("id_privacy_policy").click()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: Element is not currently visible and so may not be interacted with
+Stacktrace:
+    at fxdriver.preconditions.visible (file:///tmp/tmpSIYBZ7/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+    at DelayedCommand.prototype.checkPreconditions_ (file:///tmp/tmpSIYBZ7/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmpSIYBZ7/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpSIYBZ7/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_case_invalid_log_in (login_app.tests.sel_test_login_app_selenium.LoginTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 135, in test_case_invalid_log_in
+    driver.find_element_by_id("id_privacy_policy").click()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: Element is not currently visible and so may not be interacted with
+Stacktrace:
+    at fxdriver.preconditions.visible (file:///tmp/tmpbXmuOM/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+    at DelayedCommand.prototype.checkPreconditions_ (file:///tmp/tmpbXmuOM/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmpbXmuOM/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpbXmuOM/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_log_in (login_app.tests.sel_test_login_app_selenium.LoginTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 89, in test_log_in
+    driver.find_element_by_id("id_privacy_policy").click()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+ElementNotVisibleException: Message: Element is not currently visible and so may not be interacted with
+Stacktrace:
+    at fxdriver.preconditions.visible (file:///tmp/tmptu0aA8/extensions/fxdriver@googlecode.com/components/command-processor.js:9982)
+    at DelayedCommand.prototype.checkPreconditions_ (file:///tmp/tmptu0aA8/extensions/fxdriver@googlecode.com/components/command-processor.js:12626)
+    at DelayedCommand.prototype.executeInternal_/h (file:///tmp/tmptu0aA8/extensions/fxdriver@googlecode.com/components/command-processor.js:12643)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmptu0aA8/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+
+======================================================================
+ERROR: test_privacy_cookie_policy (login_app.tests.sel_test_login_app_selenium.LoginTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/login_app/tests/sel_test_login_app_selenium.py", line 28, in setUp
+    super(LoginTests, self).setUp(*args, **kwargs)
+  File "/opt/ecgps/code/ecgps_core/tests/sel_base.py", line 25, in setUp
+    self.driver = webdriver.Firefox(firefox_profile=self.ff_profile)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/firefox/webdriver.py", line 77, in __init__
+    self.binary, timeout),
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/firefox/extension_connection.py", line 49, in __init__
+    self.binary.launch_browser(self.profile)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 68, in launch_browser
+    self._wait_until_connectable()
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/firefox/firefox_binary.py", line 103, in _wait_until_connectable
+    raise WebDriverException("Can't load the profile. Profile "
+WebDriverException: Message: Can't load the profile. Profile Dir: %s If you specified a log_file in the FirefoxBinary constructor, check it for details.
+
+
+======================================================================
+ERROR: test_site_invoice_accepted (sponsor_portal.tests.seltest_sponsor_selenium.InvoiceUploadExistingUpload)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/sponsor_portal/tests/seltest_sponsor_selenium.py", line 1554, in test_site_invoice_accepted
+    self.log_in()
+  File "/opt/ecgps/code/ecgps_core/tests/sel_base.py", line 66, in log_in
+    driver.get(self.base_url)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in get
+    self.execute(Command.GET, {'url': url})
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpR14cQM/extensions/fxdriver@googlecode.com/components/driver-component.js:8993)
+    at WebLoadingListener/e (file:///tmp/tmpR14cQM/extensions/fxdriver@googlecode.com/components/driver-component.js:5076)
+    at WebLoadingListener/< (file:///tmp/tmpR14cQM/extensions/fxdriver@googlecode.com/components/driver-component.js:5084)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpR14cQM/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+
+======================================================================
+ERROR: test_site_invoice_NA (sponsor_portal.tests.seltest_sponsor_selenium.InvoiceUploadNoUploads)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/sponsor_portal/tests/seltest_sponsor_selenium.py", line 1495, in test_site_invoice_NA
+    self.log_in()
+  File "/opt/ecgps/code/ecgps_core/tests/sel_base.py", line 66, in log_in
+    driver.get(self.base_url)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in get
+    self.execute(Command.GET, {'url': url})
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmpyYPZZS/extensions/fxdriver@googlecode.com/components/driver-component.js:8993)
+    at WebLoadingListener/e (file:///tmp/tmpyYPZZS/extensions/fxdriver@googlecode.com/components/driver-component.js:5076)
+    at WebLoadingListener/< (file:///tmp/tmpyYPZZS/extensions/fxdriver@googlecode.com/components/driver-component.js:5084)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmpyYPZZS/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+
+======================================================================
+ERROR: test_sponsor_invoice_acceptance (sponsor_portal.tests.seltest_sponsor_selenium.SponsorInvoiceAcceptance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/ecgps/code/sponsor_portal/tests/seltest_sponsor_selenium.py", line 1477, in test_sponsor_invoice_acceptance
+    self.log_out()
+  File "/opt/ecgps/code/ecgps_core/tests/sel_base.py", line 79, in log_out
+    driver.get(self.base_url + "logout/")
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 208, in get
+    self.execute(Command.GET, {'url': url})
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/opt/ecgps/env/local/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+TimeoutException: Message: Timed out waiting for page load.
+Stacktrace:
+    at Utils.initWebLoadingListener/< (file:///tmp/tmp5kOL8U/extensions/fxdriver@googlecode.com/components/driver-component.js:8993)
+    at WebLoadingListener/e (file:///tmp/tmp5kOL8U/extensions/fxdriver@googlecode.com/components/driver-component.js:5076)
+    at WebLoadingListener/< (file:///tmp/tmp5kOL8U/extensions/fxdriver@googlecode.com/components/driver-component.js:5084)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///tmp/tmp5kOL8U/extensions/fxdriver@googlecode.com/components/driver-component.js:623)
+
+----------------------------------------------------------------------
+Ran 70 tests in 2229.670s
+
+FAILED (errors=11)
+Using existing test database for alias 'default'...
+Pending 1
+Pending 0
+Preserving test database for alias 'default'...
